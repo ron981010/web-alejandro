@@ -1,4 +1,12 @@
 {
+  "_Icon-C6gSHICf.js": {
+    "file": "assets/Icon-C6gSHICf.js",
+    "name": "Icon",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "_framework-CXnKph_e.js": {
     "file": "assets/framework-CXnKph_e.js",
     "name": "framework",
@@ -11,17 +19,18 @@
     "name": "rolldown-runtime"
   },
   "app/simulator.tsx": {
-    "file": "assets/simulator-BEJuVIkw.js",
+    "file": "assets/simulator-Lgs3xVTV.js",
     "name": "simulator",
     "src": "app/simulator.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
+      "_Icon-C6gSHICf.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-X466s8_7.js",
+    "file": "assets/layout-segment-context-Ct3RqX3T.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -32,7 +41,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-DTDO2pxV.js",
+    "file": "assets/index-C2pIpVmM.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -42,6 +51,7 @@
     ],
     "dynamicImports": [
       "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "_Icon-C6gSHICf.js",
       "virtual:vinext-app-browser-entry",
       "app/simulator.tsx"
     ]
